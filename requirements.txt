@@ -1,0 +1,14 @@
+# Requirements for PHASE 1: Voice I/O and System Commands
+SpeechRecognition
+pyaudio
+pyttsx3
+
+# Requirements for PHASE 2: Smart Automation
+# Existing: SpeechRecognition, pyaudio, pyttsx3
+# New:
+pyautogui         # For controlling mouse, keyboard, and screen
+psutil            # For monitoring system processes (used for finding app paths)
+sqlite3           # Built-in, no install needed, for your task/memory database
+langchain
+ollama
+faiss-cpu
